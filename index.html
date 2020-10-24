@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+    <title>Virgin Alert</title>
+    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+</head>
+<body>
+
+<audio id="myAudio" loop>
+  <source src="virgin alert2.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+
+
+<button onclick="playAudio()" type="button" class="btn">Virgin</button>
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+</script>
+
+</body>
+</html>
